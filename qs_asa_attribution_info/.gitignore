@@ -33,6 +33,12 @@ migrate_working_dir/
 **/build/
 **/coverage/
 
+# Bundled example app dependency resolution
+**/example/pubspec.lock
+**/example/ios/Podfile
+**/example/ios/Flutter/Debug.xcconfig
+**/example/ios/Flutter/Release.xcconfig
+
 # Test and coverage reports
 *.lcov
 test-results/
